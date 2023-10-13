@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF2B0D712AD844F6003A1AEC /* CDDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B0D702AD844F6003A1AEC /* CDDataModel.swift */; };
+		DF5B14EE2A90DFAA001BDCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5B14ED2A90DFAA001BDCCC /* LaunchScreen.storyboard */; };
+		DF83B04229D0586700A4A25C /* CuidaTuSaludApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83B04129D0586700A4A25C /* CuidaTuSaludApp.swift */; };
+		DF83B04929D0586800A4A25C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF83B04829D0586800A4A25C /* Preview Assets.xcassets */; };
+		DF83B05329D0586800A4A25C /* CuidaTuSaludTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83B05229D0586800A4A25C /* CuidaTuSaludTests.swift */; };
+		DF83B05D29D0586800A4A25C /* CuidaTuSaludUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83B05C29D0586800A4A25C /* CuidaTuSaludUITests.swift */; };
+		DF83B05F29D0586800A4A25C /* CuidaTuSaludUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83B05E29D0586800A4A25C /* CuidaTuSaludUITestsLaunchTests.swift */; };
+		DF869FFF2A00400500AB5FCA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DF869FFE2A00400500AB5FCA /* FirebaseAnalytics */; };
+		DF86A0012A00400500AB5FCA /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DF86A0002A00400500AB5FCA /* FirebaseAnalyticsSwift */; };
+		DFA2FB192AD5F0E2000FF83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA2FB182AD5F0E2000FF83D /* Assets.xcassets */; };
+		DFA2FB1B2AD6077F000FF83D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA2FB1A2AD6077F000FF83D /* GoogleService-Info.plist */; };
+		DFA2FB1C2AD6077F000FF83D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA2FB1A2AD6077F000FF83D /* GoogleService-Info.plist */; };
+		DFA2FB1D2AD6077F000FF83D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA2FB1A2AD6077F000FF83D /* GoogleService-Info.plist */; };
+		DFA2FB1F2AD75D20000FF83D /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA2FB1E2AD75D20000FF83D /* ChartsView.swift */; };
+		DFA2FB202AD75D20000FF83D /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA2FB1E2AD75D20000FF83D /* ChartsView.swift */; };
+		DFA2FB212AD75D20000FF83D /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA2FB1E2AD75D20000FF83D /* ChartsView.swift */; };
+		DFABA4D52AD18EC7006EAA79 /* Tarjetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFABA4D42AD18EC7006EAA79 /* Tarjetas.swift */; };
+		DFABA4D72AD194C6006EAA79 /* FitnessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFABA4D62AD194C6006EAA79 /* FitnessManager.swift */; };
+		DFB62D9D2ACA0F10002F6C00 /* PantallaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB62D9C2ACA0F10002F6C00 /* PantallaInicial.swift */; };
+		DFC931FD2AD92D1700501492 /* CdFoodClass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFC931FB2AD92D1700501492 /* CdFoodClass.xcdatamodeld */; };
+		DFC931FF2AD9341500501492 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC931FE2AD9341500501492 /* RingView.swift */; };
+		DFC932012AD9455500501492 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC932002AD9455500501492 /* TabView.swift */; };
+		DFC932032AD9484A00501492 /* FoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC932022AD9484A00501492 /* FoodCard.swift */; };
+		DFC932052AD94C1600501492 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC932042AD94C1600501492 /* WaterView.swift */; };
+		DFC932072AD94F8500501492 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC932062AD94F8500501492 /* AddView.swift */; };
+		DFF9CC352A0A99C700AE9149 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DFF9CC342A0A99C700AE9149 /* FirebaseAuth */; };
+		DFF9CC382A0A9A4B00AE9149 /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9CC372A0A9A4B00AE9149 /* AuthenticationFirebaseDatasource.swift */; };
+		DFF9CC3A2A0A9D5900AE9149 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9CC392A0A9D5900AE9149 /* AuthenticationRepository.swift */; };
+		DFF9CC3C2A0A9E2400AE9149 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9CC3B2A0A9E2400AE9149 /* AuthenticationViewModel.swift */; };
+		DFF9CC3E2A0AA12B00AE9149 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9CC3D2A0AA12B00AE9149 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF83B04F29D0586800A4A25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF83B03629D0586700A4A25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF83B03D29D0586700A4A25C;
+			remoteInfo = CuidaTuSalud;
+		};
+		DF83B05929D0586800A4A25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF83B03629D0586700A4A25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF83B03D29D0586700A4A25C;
+			remoteInfo = CuidaTuSalud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF2B0D702AD844F6003A1AEC /* CDDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDDataModel.swift; sourceTree = "<group>"; };
+		DF5B14ED2A90DFAA001BDCCC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF83B03E29D0586700A4A25C /* CuidaTuSalud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuidaTuSalud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF83B04129D0586700A4A25C /* CuidaTuSaludApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuidaTuSaludApp.swift; sourceTree = "<group>"; };
+		DF83B04829D0586800A4A25C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF83B04E29D0586800A4A25C /* CuidaTuSaludTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuidaTuSaludTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF83B05229D0586800A4A25C /* CuidaTuSaludTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuidaTuSaludTests.swift; sourceTree = "<group>"; };
+		DF83B05829D0586800A4A25C /* CuidaTuSaludUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuidaTuSaludUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF83B05C29D0586800A4A25C /* CuidaTuSaludUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuidaTuSaludUITests.swift; sourceTree = "<group>"; };
+		DF83B05E29D0586800A4A25C /* CuidaTuSaludUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuidaTuSaludUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF83B06B29D058FD00A4A25C /* CuidaTuSalud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CuidaTuSalud.entitlements; sourceTree = "<group>"; };
+		DF86D5632AD2FE83004C3697 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFA2FB182AD5F0E2000FF83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "CuidaTuSalud/Preview Content/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		DFA2FB1A2AD6077F000FF83D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFA2FB1E2AD75D20000FF83D /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		DFABA4D42AD18EC7006EAA79 /* Tarjetas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarjetas.swift; sourceTree = "<group>"; };
+		DFABA4D62AD194C6006EAA79 /* FitnessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessManager.swift; sourceTree = "<group>"; };
+		DFB62D9C2ACA0F10002F6C00 /* PantallaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PantallaInicial.swift; path = ../PantallaInicial.swift; sourceTree = "<group>"; };
+		DFC931FC2AD92D1700501492 /* CdFoodClass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CdFoodClass.xcdatamodel; sourceTree = "<group>"; };
+		DFC931FE2AD9341500501492 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		DFC932002AD9455500501492 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		DFC932022AD9484A00501492 /* FoodCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCard.swift; sourceTree = "<group>"; };
+		DFC932042AD94C1600501492 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		DFC932062AD94F8500501492 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		DFF9CC372A0A9A4B00AE9149 /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
+		DFF9CC392A0A9D5900AE9149 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		DFF9CC3B2A0A9E2400AE9149 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		DFF9CC3D2A0AA12B00AE9149 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF83B03B29D0586700A4A25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86A0012A00400500AB5FCA /* FirebaseAnalyticsSwift in Frameworks */,
+				DFF9CC352A0A99C700AE9149 /* FirebaseAuth in Frameworks */,
+				DF869FFF2A00400500AB5FCA /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF83B04B29D0586800A4A25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF83B05529D0586800A4A25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF83B03529D0586700A4A25C = {
+			isa = PBXGroup;
+			children = (
+				DF83B04029D0586700A4A25C /* CuidaTuSalud */,
+				DF83B05129D0586800A4A25C /* CuidaTuSaludTests */,
+				DF83B05B29D0586800A4A25C /* CuidaTuSaludUITests */,
+				DF83B03F29D0586700A4A25C /* Products */,
+				DFF9CC332A0A99C700AE9149 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF83B03F29D0586700A4A25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF83B03E29D0586700A4A25C /* CuidaTuSalud.app */,
+				DF83B04E29D0586800A4A25C /* CuidaTuSaludTests.xctest */,
+				DF83B05829D0586800A4A25C /* CuidaTuSaludUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF83B04029D0586700A4A25C /* CuidaTuSalud */ = {
+			isa = PBXGroup;
+			children = (
+				DF83B06B29D058FD00A4A25C /* CuidaTuSalud.entitlements */,
+				DF83B04129D0586700A4A25C /* CuidaTuSaludApp.swift */,
+				DFA2FB112AD5CBEB000FF83D /* Come Sano */,
+				DF86D5662AD2FECF004C3697 /* LaunchScreen */,
+				DFF9CC3D2A0AA12B00AE9149 /* HomeView.swift */,
+				DF86D5622AD2FE5F004C3697 /* Authentication */,
+				DF83B04729D0586800A4A25C /* Preview Content */,
+				DFABA4D32AD18E9D006EAA79 /* FITNESS */,
+			);
+			path = CuidaTuSalud;
+			sourceTree = "<group>";
+		};
+		DF83B04729D0586800A4A25C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFA2FB182AD5F0E2000FF83D /* Assets.xcassets */,
+				DF83B04829D0586800A4A25C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF83B05129D0586800A4A25C /* CuidaTuSaludTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF83B05229D0586800A4A25C /* CuidaTuSaludTests.swift */,
+			);
+			path = CuidaTuSaludTests;
+			sourceTree = "<group>";
+		};
+		DF83B05B29D0586800A4A25C /* CuidaTuSaludUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF83B05C29D0586800A4A25C /* CuidaTuSaludUITests.swift */,
+				DF83B05E29D0586800A4A25C /* CuidaTuSaludUITestsLaunchTests.swift */,
+			);
+			path = CuidaTuSaludUITests;
+			sourceTree = "<group>";
+		};
+		DF86D5622AD2FE5F004C3697 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DFB62D9C2ACA0F10002F6C00 /* PantallaInicial.swift */,
+				DF86D5632AD2FE83004C3697 /* GoogleService-Info.plist */,
+				DFA2FB1A2AD6077F000FF83D /* GoogleService-Info.plist */,
+				DFF9CC372A0A9A4B00AE9149 /* AuthenticationFirebaseDatasource.swift */,
+				DFF9CC392A0A9D5900AE9149 /* AuthenticationRepository.swift */,
+				DFF9CC3B2A0A9E2400AE9149 /* AuthenticationViewModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DF86D5662AD2FECF004C3697 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DF5B14ED2A90DFAA001BDCCC /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		DFA2FB112AD5CBEB000FF83D /* Come Sano */ = {
+			isa = PBXGroup;
+			children = (
+				DFC931FB2AD92D1700501492 /* CdFoodClass.xcdatamodeld */,
+				DF2B0D702AD844F6003A1AEC /* CDDataModel.swift */,
+				DFC932042AD94C1600501492 /* WaterView.swift */,
+				DFC932062AD94F8500501492 /* AddView.swift */,
+				DFC932022AD9484A00501492 /* FoodCard.swift */,
+				DFC931FE2AD9341500501492 /* RingView.swift */,
+				DFC932002AD9455500501492 /* TabView.swift */,
+			);
+			path = "Come Sano";
+			sourceTree = "<group>";
+		};
+		DFABA4D32AD18E9D006EAA79 /* FITNESS */ = {
+			isa = PBXGroup;
+			children = (
+				DFABA4D62AD194C6006EAA79 /* FitnessManager.swift */,
+				DFABA4D42AD18EC7006EAA79 /* Tarjetas.swift */,
+				DFA2FB1E2AD75D20000FF83D /* ChartsView.swift */,
+			);
+			path = FITNESS;
+			sourceTree = "<group>";
+		};
+		DFF9CC332A0A99C700AE9149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF83B03D29D0586700A4A25C /* CuidaTuSalud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF83B06229D0586800A4A25C /* Build configuration list for PBXNativeTarget "CuidaTuSalud" */;
+			buildPhases = (
+				DF83B03A29D0586700A4A25C /* Sources */,
+				DF83B03B29D0586700A4A25C /* Frameworks */,
+				DF83B03C29D0586700A4A25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuidaTuSalud;
+			packageProductDependencies = (
+				DF869FFE2A00400500AB5FCA /* FirebaseAnalytics */,
+				DF86A0002A00400500AB5FCA /* FirebaseAnalyticsSwift */,
+				DFF9CC342A0A99C700AE9149 /* FirebaseAuth */,
+			);
+			productName = CuidaTuSalud;
+			productReference = DF83B03E29D0586700A4A25C /* CuidaTuSalud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF83B04D29D0586800A4A25C /* CuidaTuSaludTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF83B06529D0586800A4A25C /* Build configuration list for PBXNativeTarget "CuidaTuSaludTests" */;
+			buildPhases = (
+				DF83B04A29D0586800A4A25C /* Sources */,
+				DF83B04B29D0586800A4A25C /* Frameworks */,
+				DF83B04C29D0586800A4A25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF83B05029D0586800A4A25C /* PBXTargetDependency */,
+			);
+			name = CuidaTuSaludTests;
+			productName = CuidaTuSaludTests;
+			productReference = DF83B04E29D0586800A4A25C /* CuidaTuSaludTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF83B05729D0586800A4A25C /* CuidaTuSaludUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF83B06829D0586800A4A25C /* Build configuration list for PBXNativeTarget "CuidaTuSaludUITests" */;
+			buildPhases = (
+				DF83B05429D0586800A4A25C /* Sources */,
+				DF83B05529D0586800A4A25C /* Frameworks */,
+				DF83B05629D0586800A4A25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF83B05A29D0586800A4A25C /* PBXTargetDependency */,
+			);
+			name = CuidaTuSaludUITests;
+			productName = CuidaTuSaludUITests;
+			productReference = DF83B05829D0586800A4A25C /* CuidaTuSaludUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF83B03629D0586700A4A25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DF83B03D29D0586700A4A25C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DF83B04D29D0586800A4A25C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DF83B03D29D0586700A4A25C;
+					};
+					DF83B05729D0586800A4A25C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DF83B03D29D0586700A4A25C;
+					};
+				};
+			};
+			buildConfigurationList = DF83B03929D0586700A4A25C /* Build configuration list for PBXProject "CuidaTuSalud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF83B03529D0586700A4A25C;
+			packageReferences = (
+				DF869FFD2A00400500AB5FCA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DF83B03F29D0586700A4A25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF83B03D29D0586700A4A25C /* CuidaTuSalud */,
+				DF83B04D29D0586800A4A25C /* CuidaTuSaludTests */,
+				DF83B05729D0586800A4A25C /* CuidaTuSaludUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF83B03C29D0586700A4A25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF83B04929D0586800A4A25C /* Preview Assets.xcassets in Resources */,
+				DFA2FB1B2AD6077F000FF83D /* GoogleService-Info.plist in Resources */,
+				DFA2FB192AD5F0E2000FF83D /* Assets.xcassets in Resources */,
+				DF5B14EE2A90DFAA001BDCCC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF83B04C29D0586800A4A25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA2FB1C2AD6077F000FF83D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF83B05629D0586800A4A25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA2FB1D2AD6077F000FF83D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF83B03A29D0586700A4A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC931FF2AD9341500501492 /* RingView.swift in Sources */,
+				DFC932032AD9484A00501492 /* FoodCard.swift in Sources */,
+				DFF9CC3C2A0A9E2400AE9149 /* AuthenticationViewModel.swift in Sources */,
+				DFC932012AD9455500501492 /* TabView.swift in Sources */,
+				DFC932052AD94C1600501492 /* WaterView.swift in Sources */,
+				DFF9CC3E2A0AA12B00AE9149 /* HomeView.swift in Sources */,
+				DFA2FB1F2AD75D20000FF83D /* ChartsView.swift in Sources */,
+				DFABA4D72AD194C6006EAA79 /* FitnessManager.swift in Sources */,
+				DF2B0D712AD844F6003A1AEC /* CDDataModel.swift in Sources */,
+				DFF9CC382A0A9A4B00AE9149 /* AuthenticationFirebaseDatasource.swift in Sources */,
+				DFF9CC3A2A0A9D5900AE9149 /* AuthenticationRepository.swift in Sources */,
+				DFB62D9D2ACA0F10002F6C00 /* PantallaInicial.swift in Sources */,
+				DFC932072AD94F8500501492 /* AddView.swift in Sources */,
+				DFC931FD2AD92D1700501492 /* CdFoodClass.xcdatamodeld in Sources */,
+				DF83B04229D0586700A4A25C /* CuidaTuSaludApp.swift in Sources */,
+				DFABA4D52AD18EC7006EAA79 /* Tarjetas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF83B04A29D0586800A4A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF83B05329D0586800A4A25C /* CuidaTuSaludTests.swift in Sources */,
+				DFA2FB202AD75D20000FF83D /* ChartsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF83B05429D0586800A4A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF83B05F29D0586800A4A25C /* CuidaTuSaludUITestsLaunchTests.swift in Sources */,
+				DF83B05D29D0586800A4A25C /* CuidaTuSaludUITests.swift in Sources */,
+				DFA2FB212AD75D20000FF83D /* ChartsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF83B05029D0586800A4A25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF83B03D29D0586700A4A25C /* CuidaTuSalud */;
+			targetProxy = DF83B04F29D0586800A4A25C /* PBXContainerItemProxy */;
+		};
+		DF83B05A29D0586800A4A25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF83B03D29D0586700A4A25C /* CuidaTuSalud */;
+			targetProxy = DF83B05929D0586800A4A25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF83B06029D0586800A4A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF83B06129D0586800A4A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF83B06329D0586800A4A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = CuidaTuSalud/CuidaTuSalud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CuidaTuSalud/Preview Content\"";
+				DEVELOPMENT_TEAM = 38F86BW9VV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = " Por favor permita el acceso para poder usar todas las funcionalidades de la aplicación.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarasSinghDeep.CuidaTuSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF83B06429D0586800A4A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = CuidaTuSalud/CuidaTuSalud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CuidaTuSalud/Preview Content\"";
+				DEVELOPMENT_TEAM = 38F86BW9VV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = " Por favor permita el acceso para poder usar todas las funcionalidades de la aplicación.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarasSinghDeep.CuidaTuSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DF83B06629D0586800A4A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38F86BW9VV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarasSinghDeep.CuidaTuSaludTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuidaTuSalud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CuidaTuSalud";
+			};
+			name = Debug;
+		};
+		DF83B06729D0586800A4A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38F86BW9VV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarasSinghDeep.CuidaTuSaludTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuidaTuSalud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CuidaTuSalud";
+			};
+			name = Release;
+		};
+		DF83B06929D0586800A4A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38F86BW9VV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarasSinghDeep.CuidaTuSaludUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CuidaTuSalud;
+			};
+			name = Debug;
+		};
+		DF83B06A29D0586800A4A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38F86BW9VV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarasSinghDeep.CuidaTuSaludUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CuidaTuSalud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF83B03929D0586700A4A25C /* Build configuration list for PBXProject "CuidaTuSalud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF83B06029D0586800A4A25C /* Debug */,
+				DF83B06129D0586800A4A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF83B06229D0586800A4A25C /* Build configuration list for PBXNativeTarget "CuidaTuSalud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF83B06329D0586800A4A25C /* Debug */,
+				DF83B06429D0586800A4A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF83B06529D0586800A4A25C /* Build configuration list for PBXNativeTarget "CuidaTuSaludTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF83B06629D0586800A4A25C /* Debug */,
+				DF83B06729D0586800A4A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF83B06829D0586800A4A25C /* Build configuration list for PBXNativeTarget "CuidaTuSaludUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF83B06929D0586800A4A25C /* Debug */,
+				DF83B06A29D0586800A4A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF869FFD2A00400500AB5FCA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF869FFE2A00400500AB5FCA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF869FFD2A00400500AB5FCA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DF86A0002A00400500AB5FCA /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF869FFD2A00400500AB5FCA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		DFF9CC342A0A99C700AE9149 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF869FFD2A00400500AB5FCA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DFC931FB2AD92D1700501492 /* CdFoodClass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFC931FC2AD92D1700501492 /* CdFoodClass.xcdatamodel */,
+			);
+			currentVersion = DFC931FC2AD92D1700501492 /* CdFoodClass.xcdatamodel */;
+			path = CdFoodClass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF83B03629D0586700A4A25C /* Project object */;
+}
